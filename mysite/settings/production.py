@@ -44,11 +44,7 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'filename': '/home/mysite_debug.log',
         },
-        'mail_admins': {
-            'level': 'ERROR',
-            'class': 'django.utils.log.AdminEmailHandler',
-            'filters': ['special'],
-        }
+        
     },
     'loggers': {
         'django': {
