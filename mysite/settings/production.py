@@ -13,14 +13,14 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 import os
 from .base import *
 
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = '9qgh-%y9tr2*6cxvnzf8(u8a!&&&ea_-@-a18gooqunwozt)c$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
-DATABASE_PASSWORD=os.environ['DATABASE_PASSWORD']
+DATABASE_PASSWORD='123456'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',   # 数据库引擎
