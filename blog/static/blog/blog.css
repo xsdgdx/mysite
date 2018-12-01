@@ -78,3 +78,6 @@ div#my-site{
     padding:0em 0em 0em 0em;
     margin:0em;
 }
+body{
+    background-image: url('/static/backgroud.jpg'); 
+}

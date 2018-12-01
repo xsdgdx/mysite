@@ -14,27 +14,13 @@
 {% block content %}
     <div class="container ">
         <div class="row " >
-        <div class="hidden-xs col-sm-4 col-md-3 col-lg-2">
-            <div class="panel panel-default">
-                    <div class="panel-heading"></div>
-                    <div class="panel-body" id="my-site">
-                        <ul>
-                            <iframe frameborder="0" border="0" 
-                                    marginwidth="0" marginheight="0" 
-                                    width=165 height=86
-                                    src="//music.163.com/outchain/player?type=2&id=448065&auto=0&height=66">
-                            </iframe>
-                        </ul>
-                    </div>
-                </div>
-            </div>
             <div class="col-xs-12 col-sm-8 col-md-9 col-lg-8">
                 <div class="panel panel-default ">
                     <div class="panel-heading">{% block blog_list_title %}博客列表{% endblock %}</div>
                     <div class="panel-body">
                         {% for blog in blogs %}
                             <div class="blog">
-                                <h3><a class="text-muted" href="{% url 'blog_detail' blog.pk %}">{{ blog.title }}</a></h3>
+                                <h3><a class="text-default" href="{% url 'blog_detail' blog.pk %}">{{ blog.title }}</a></h3>
                                 <p class="blog-info">
                                     <span class="glyphicon glyphicon-tag"></span> <a href="{% url 'blogs_with_type' blog.blog_type.pk %}">{{ blog.blog_type }}</a>&nbsp;&nbsp;
                                     <span class="glyphicon glyphicon-time"></span> {{ blog.created_time|date:"Y-m-d" }}&nbsp;&nbsp;
