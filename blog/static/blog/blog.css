@@ -78,6 +78,11 @@ div#my-site{
     padding:0em 0em 0em 0em;
     margin:0em;
 }
-body{
-    background-image: url('/static/backgroud.jpg'); 
+div>p{
+    text-align: center;
+}
+div>p>img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
 }

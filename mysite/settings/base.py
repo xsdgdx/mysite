@@ -133,8 +133,10 @@ CKEDITOR_CONFIGS = {
         'width': 'auto',
         'height': '180',
         'tabSpaces': 4,
+        'toolbarheight':'auto',
+        'toolbarCanCollapse':'true',
         'removePlugins': 'elementspath',
-        'resize_enabled': False,
+        'resize_enabled' : 'true',
     }
 }
 
