@@ -78,9 +78,7 @@ div#my-site{
     padding:0em 0em 0em 0em;
     margin:0em;
 }
-div>p{
-    text-align: center;
-}
+
 div>p>img{
     width: auto;
     height: auto;
