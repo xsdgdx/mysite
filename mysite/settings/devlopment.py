@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 import os
 from .base import *
 
-SECRET_KEY = '9qgh-%y9tr2*6cxvnzf8(u8a!&&&ea_-@-a18gooqunwozt)c$'
+SECRET_KEY = '^ye#f+2(#9-@#w7)nn0w+ts%wfv+#ro6^&ci48zg4myh4)_1%t'
 
 DEBUG = True
 
