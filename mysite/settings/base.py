@@ -115,7 +115,12 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 CKEDITOR_UPLOAD_PATH = 'upload/'
 
 CKEDITOR_CONFIGS = {
-    'default': {},
+    'default': {
+        'toolbar': 'Full',
+        'height': 'auto',
+        'width': 'auto',
+    },
+
     'comment_ckeditor': {
         'toolbar': 'custom',
         'toolbar_custom': [
@@ -125,8 +130,6 @@ CKEDITOR_CONFIGS = {
             ['Link', 'Unlink'],
             ["Smiley", "SpecialChar", 'Blockquote'],
         ],
-        'width': 'auto',
-        'height': '180',
         'tabSpaces': 4,
         'removePlugins': 'elementspath',
         'resize_enabled': False,
